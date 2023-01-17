@@ -1,1 +1,21 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+#nav1{
+    background-color: #222222;
+}
+
+#indexproj{
+        div{
+            ul{
+                width: 100%;
+                margin-left: 0;
+                padding-left: 0;
+                li{
+                    width: 100%;
+                    justify-content: space-between;
+                    margin-bottom: .4rem;
+                }
+            }
+        }
+}
+
